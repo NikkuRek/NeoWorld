@@ -4,7 +4,7 @@
 *{ font-family: 'Unbounded', helvetica; }
 	 
 .item-r {   
-	min-height: 400px;  
+	min-height: 30rem;  
 	border-bottom: solid 7px white;   
 	background-image: url("http://imgfz.com/i/biOqjld.jpeg");   
 	background-size: cover;  
@@ -53,29 +53,6 @@ body{
 }  
  
 
-@media only screen and (min-width:980px) {
-	 
-    body {
-        background-color: blue;  
-    }
-	
-	.card {   
-	font-size: 1.5rem;  	
-	}	  
-}
-
-@media only screen and (max-width:500px) {
-	 
-	 . menu {
-	font-size: .5rem; }
-    body {
-        background-color: red;  
-    }
-	
-	.card {   
-	font-size: 0.75rem;  	
-	}	
-}
 
 .card {   
 	font-family: 'Josefin Sans', Helvetica;
@@ -102,16 +79,15 @@ body{
 	flex-grow: 1;
 	align-content: center;
 }	
-
 	
 .E { 
 	display: flex;
-	justify-content: space-around; 
 }
  
 
 .E div:nth-child(2),
 .E div:nth-child(4) {
+	font-size: .7;
 	padding: 0 5px; 
 	border-left: solid 2px red; 
 	border-right: solid 2px red;
@@ -136,3 +112,31 @@ img {
 	 color: white;
 	 background-color: #2b2b2b;
 }	 
+
+@media only screen and (min-width:980px) {
+	 
+    body {
+        background-color: rgb(10, 173, 237);  
+    }
+	
+	.card {   
+	font-size: 1.5rem;  	
+	}	  
+}
+
+@media only screen and (max-width:500px) {
+	 
+	 .menu {
+	font-size: .7rem; }
+    body {
+        background-color: rgb(18, 18, 198);  
+    }
+	
+	.card {   
+	font-size: 0.75rem;  	
+	}	
+
+	.item-r{
+		min-height: 15rem;  
+	}
+}
