@@ -39,7 +39,7 @@
   text-align: center;
 }
 .menu .grid-menu a:hover {
-  color: red;
+  color: rgb(220, 0, 0);
   transition: 0.2s;
 }
 .menu .grid-menu a:active {
@@ -65,7 +65,7 @@ body {
 .tarjeta h1 {
   margin: 0 5vw 4%;
   text-align: center;
-  border-bottom: solid 3px red;
+  border-bottom: solid 3px rgb(220, 0, 0);
 }
 .tarjeta .img-derecha,
 .tarjeta .img-izquierda {
@@ -82,18 +82,20 @@ body {
 .tarjeta .img-izquierda img {
   object-fit: cover;
   border-radius: 20px;
-  box-shadow: -3.5px 3.5px 0 red;
+  box-shadow: -3.5px 3.5px 0 rgb(220, 0, 0);
   max-width: 35%;
 }
 .tarjeta .estadisticas {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-content: space-evenly;
 }
 .tarjeta .estadisticas div:nth-child(2),
 .tarjeta .estadisticas div:nth-child(4) {
   font-size: 1.2;
-  padding: 0 5px;
-  border-left: solid 2px red;
-  border-right: solid 2px red;
+  padding: 0 1rem;
+  border-left: solid 2px rgb(220, 0, 0);
+  border-right: solid 2px rgb(220, 0, 0);
 }
 
 footer {
@@ -107,6 +109,9 @@ footer {
 }
 
 @media only screen and (max-width: 500px) {
+  .portada {
+    min-height: 15rem;
+  }
   .menu {
     font-size: 0.7rem;
   }
@@ -114,7 +119,14 @@ footer {
     background-color: rgb(18, 18, 198);
   }
   .tarjeta {
-    font-size: 0.75rem;
+    font-size: 0.6rem;
+  }
+  .tarjeta .estadisticas {
+    font-size: 0.6rem;
+  }
+  .tarjeta .estadisticas div:nth-child(2),
+  .tarjeta .estadisticas div:nth-child(4) {
+    padding: 0 0.5rem;
   }
 }
 
