@@ -4,12 +4,12 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Adler B. Lancaster</title> 
-		<link href="/img/favicon.png" type="image/png" rel="icon">
+		<link href="/img/favicon.svg" type="image/svg" rel="icon">
 		<link href="normalize.css" type="text/css" rel="stylesheet">
 		<link href="inicio.css" type="text/css" rel="stylesheet">
 	</head>
 	
-	<!-- <?php include 'header.php';?> -->
+	<?php include 'header.php';?>
 	
 	<body>  
 		<section class="tarjeta"> 
