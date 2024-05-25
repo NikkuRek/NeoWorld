@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Unbounded&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
 * {
-  font-family: "Unbounded", helvetica;
+  font-family: "Unbounded", Arial, helvetica;
 }
 
 .portada {
@@ -80,7 +80,8 @@ body {
 }
 .tarjeta .img-derecha img,
 .tarjeta .img-izquierda img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 20px;
   box-shadow: -3.5px 3.5px 0 rgb(220, 0, 0);
   max-width: 35%;
@@ -116,7 +117,7 @@ footer {
     font-size: 0.7rem;
   }
   body {
-    background-color: rgb(18, 18, 198);
+    background-color: rgb(17, 17, 198);
   }
   .tarjeta {
     font-size: 1.5rem;
@@ -125,6 +126,4 @@ footer {
   .tarjeta .estadisticas div:nth-child(4) {
     padding: 0 0.5rem;
   }
-}
-
-/*# sourceMappingURL=inicio.css.map */
+}/*# sourceMappingURL=inicio.css.map */
