@@ -4,9 +4,9 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Adler B. Lancaster</title> 
-		<link href="/img/favicon.svg" type="image/svg" rel="icon">
-		<link href="normalize.css" type="text/css" rel="stylesheet">
-		<link href="inicio.css" type="text/css" rel="stylesheet">
+		<link href="../img/favicon.svg" type="image/svg" rel="icon">
+		<link href="../estilos/normalize.css" type="text/css" rel="stylesheet">
+		<link href="../estilos/perfil.css" type="text/css" rel="stylesheet">
 	</head>
 	
 	<?php include 'header.php';?>
